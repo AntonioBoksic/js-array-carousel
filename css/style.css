@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider {
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+}
+
+.item-container {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.item {
+    height: 100%;
+    display: none;
+}
+
+/* .item.active è + specifico di item o di active?a quanto pare si, e quindi si può mettere anche prima/sopra a selettore .item */
+/* si può usare anche solo active come selettore ma va messo dopo/sotto il selettore .item  */
+.item.active {
+    display: block;
+}
+
+
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
