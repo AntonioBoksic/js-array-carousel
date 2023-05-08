@@ -48,7 +48,7 @@
                 itemNodeList[imagePosition].classList.remove("active");
 
                 if (imagePosition == myArr.length-1) {
-                imagePosition=-1
+                imagePosition = -1;
                 }
 
                 imagePosition++;
@@ -66,11 +66,11 @@
 
                 itemNodeList[imagePosition].classList.remove("active");
 
-                if (imagePosition == 0) {
-                imagePosition == myArr.length;
+                if (imagePosition = 0) {
+                imagePosition = myArr.length;
                 }
 
-                imagePosition= imagePosition-1;
+                imagePosition = imagePosition - 1;
 
                 itemNodeList[imagePosition].classList.add("active");
                 console.log(imagePosition);
